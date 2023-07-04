@@ -126,9 +126,16 @@ const News = (props) => {
 
     };
     // render() {
+    const now = new Date();
+    const options = { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' };
+    const fullDate = now.toLocaleDateString(undefined, options);
+
     return (
         <>
-            <h1 className="text-center" style={{ marginTop: '70px' }}>
+            <div className='date-pallate' style={{ marginTop: '55px', color: '#2d0653', paddingBottom: '0px', background: "#a5bded", textAlign: 'center' }}>
+                <h6>({fullDate})</h6>
+            </div>
+            <h1 className="text-center" >
                 ReviewNews- top {capitalFirstLetter(props.category)} headlines
             </h1>
             {loading && <Spinner />}
