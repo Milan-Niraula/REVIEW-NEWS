@@ -13,7 +13,7 @@ const App = () => {
   const apiKey = process.env.REACT_APP_APIKEY;
   return (
     <div>
-      <Router basename='/REVIEW_NEWS'>
+      <Router>
         <Navbar />
         <LoadingBar
           color='#f11946'
@@ -21,7 +21,7 @@ const App = () => {
           progress={progress}
         />
         <Routes>
-          <Route exact path='/REVIEW_NEWS' element={<News setProgress={setProgress} apiKey={apiKey} key="general" pageSize={pageSize} country="us" category="general" />} />
+          <Route exact path='/' element={<News setProgress={setProgress} apiKey={apiKey} key="general" pageSize={pageSize} country="us" category="general" />} />
           <Route exact path='/business' element={<News setProgress={setProgress} apiKey={apiKey} key="business" pageSize={pageSize} country="us" category="business" />} />
           <Route exact path='/general' element={<News setProgress={setProgress} apiKey={apiKey} key="general" pageSize={pageSize} country="us" category="general" />} />
           <Route exact path='/entertainment' element={<News setProgress={setProgress} apiKey={apiKey} key="entertainment" pageSize={pageSize} country="us" category="entertainment" />} />
