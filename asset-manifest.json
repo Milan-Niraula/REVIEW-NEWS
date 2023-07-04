@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/REVIEW-NEWS/static/css/main.073c9b0a.css",
-    "main.js": "/REVIEW-NEWS/static/js/main.f7cfbf4d.js",
+    "main.js": "/REVIEW-NEWS/static/js/main.7536f9c3.js",
     "static/js/787.e7209252.chunk.js": "/REVIEW-NEWS/static/js/787.e7209252.chunk.js",
     "index.html": "/REVIEW-NEWS/index.html",
     "main.073c9b0a.css.map": "/REVIEW-NEWS/static/css/main.073c9b0a.css.map",
-    "main.f7cfbf4d.js.map": "/REVIEW-NEWS/static/js/main.f7cfbf4d.js.map",
+    "main.7536f9c3.js.map": "/REVIEW-NEWS/static/js/main.7536f9c3.js.map",
     "787.e7209252.chunk.js.map": "/REVIEW-NEWS/static/js/787.e7209252.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.f7cfbf4d.js"
+    "static/js/main.7536f9c3.js"
   ]
 }
